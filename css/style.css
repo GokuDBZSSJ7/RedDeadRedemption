@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 980px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #7c050d;
+}
+
+@font-face {
+    font-family: 'ChineseRocks';
+    src: url('../font/chinese\ rocks\ rg.otf') format('truetype');
+  }
+
+.title{
+    font-family: ChineseRocks, monospace;
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    padding: 1.875em 0;
+}
+
+#img{
+    margin: 0 auto;
+    width: 70%;
+    padding-left: 1.5em;
+    padding-bottom: 2.875em;
+}
+
+#inicial{
+    width: 100%;
+}
+.parte1{
+    padding: 1.875em 0;
+}
+
+.imagem1{
+    
+    width: calc(50% - 2%);
+    display: inline;
+}
+
+.imagem1 img{
+    height: 460px;
+    width: 260px;
+}
+
+.texto1{
+    width: calc(50% - 2%);
+    color: #FFA900;
+    font-family: ChineseRocks, monospace;
+    display: inline-block;
+    text-align: right;
+    padding-right: 10%;
+}
+.texto2{
+    max-width: 100%;
+    color: #FFA900;
+    font-family: ChineseRocks, monospace;
+    text-align: center;
+}
+
+footer{
+    padding-top: 5em;
+    color: #FFA900;
+    font-family: ChineseRocks, monospace;
+    text-align: center;
+}
+
+footer p{
+    padding-bottom: 15px;
+}
